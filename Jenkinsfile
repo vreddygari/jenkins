@@ -15,7 +15,7 @@ stage('Deploy Application')
 {
 steps
 {
-bat 'mvn package Deploy -DmuleDeploy'
+bat 'mvn package deploy -DmuleDeploy'
 }
 }
 
